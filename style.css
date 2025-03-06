@@ -1,0 +1,28 @@
+body{
+    font-family: Arial;
+    background: #FAF3E0;
+}
+.Book{
+    border: 5px outset #B0BEC5;
+    background-color: #3A506B;
+    text-align: center;
+}
+.BookTitles{
+    font-size: 30x;
+    color: #EAEAEA;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: #EAEAEA;
+}
+img{   
+    width:150px; 
+    border: 1px solid red;   
+    vertical-align: middle;
+}
+button{
+    background-color: #F76C6C;
+    color: white;
+    font-size: 50px;
+}

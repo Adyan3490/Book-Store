@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Book Store</title>
+        <link rel="stylesheet" type="text/css" href="style.css"> <!--This links the HTML code to the CSS. rel = relationship-->
+    </head>
+    <body>
+        <script src="script.js" defer></script> 
+        <h1 style="color:black;">Book Store</h1>
+        <div class="Book">
+            <h1 class="BookTitles">Dusk</h1>
+            <img src="https://m.media-amazon.com/images/I/91VUA+A3jlL.jpg"><br>
+            <br>
+            <button onclick="displayDetails('Book1')" style="font-size: 50px;" onmouseover="this.style.backgroundColor='#D94A4A'" onmouseout="this.style.backgroundColor='#F76C6C'">Display Details</button>
+            <button onclick="window.location.href='https://www.amazon.co.uk/Dusk-Kenneth-Oppel/dp/0571238327'" onmouseover="this.style.backgroundColor='#D94A4A'" onmouseout="this.style.backgroundColor='#F76C6C'">Buy Now</button>
+            <p style="font-size: 30px; visibility: hidden; color:#EAEAEA" id="Book1">"Dusk" (also known as "Darkwing") follows a young chiropter named Dusk, who is different from his colony—he can truly fly, not just glide. As new predators threaten their survival, Dusk's unique abilities may be the key to saving his kind.</p>
+        </div>
+        <div class="Book">
+            <h1 class="BookTitles">Bombproof your Horse</h1>
+            <img src="https://m.media-amazon.com/images/I/81Zido49qiL._AC_UF894,1000_QL80_.jpg"><br>
+            <br>
+            <button onclick="displayDetails('Book2')" style="font-size: 50px;" onmouseover="this.style.backgroundColor='#D94A4A'" onmouseout="this.style.backgroundColor='#F76C6C'">Display Details</button>
+            <button onclick="window.location.href='https://www.amazon.com/Bombproof-Your-Horse-Confident-Encounter/dp/1570762600'" onmouseover="this.style.backgroundColor='#D94A4A'" onmouseout="this.style.backgroundColor='#F76C6C'">Buy Now</button>
+            <p style="font-size: 30px; visibility: hidden; color:#EAEAEA" id="Book2">A clearly illustrated manual that shows equestrians how to prepare their mounts for the unexpected, turning them into safer, more pleasurable mounts.</p>
+        </div>
+        <div class="Book">
+            <h1 class="BookTitles">The Fox Girl and the White Gazelle</h1>
+            <img src="https://m.media-amazon.com/images/I/912VSVumXrL._SL1500_.jpg"><br>
+            <br>
+            <button onclick="displayDetails('Book3')" style="font-size: 50px;" onmouseover="this.style.backgroundColor='#D94A4A'" onmouseout="this.style.backgroundColor='#F76C6C'">Display Details</button>
+            <button onclick="window.location.href='https://www.amazon.co.uk/Fox-Girl-White-Gazelle-Kelpies/dp/1782504907'" onmouseover="this.style.backgroundColor='#D94A4A'" onmouseout="this.style.backgroundColor='#F76C6C'">Buy Now</button>
+            <p style="font-size: 30px; visibility: hidden; color:#EAEAEA" id="Book3">The Fox Girl and the White Gazelle is a heartwarming story about an unlikely friendship between a refugee girl and a lonely Scottish girl, brought together by a wounded fox and their shared struggles.</p>
+        </div>
+        <div class="Book">
+            <h1 class="BookTitles">How to Understand Women</h1>
+            <img src="https://m.media-amazon.com/images/I/51Uf2O0b5zL._SY466_.jpg"><br>
+            <br>
+            <button onclick="displayDetails('Book4')" style="font-size: 50px;" onmouseover="this.style.backgroundColor='#D94A4A'" onmouseout="this.style.backgroundColor='#F76C6C'">Display Details</button>
+            <button onclick="window.location.href='https://www.amazon.co.uk/How-Understand-Women-Have-Idea/dp/B0CQZYQ49M?crid=UDKQ6V3ORVEI'" onmouseover="this.style.backgroundColor='#D94A4A'" onmouseout="this.style.backgroundColor='#F76C6C'">Buy Now</button>
+            <p style="font-size: 30px; visibility: hidden; color:#EAEAEA" id="Book4">I have no idea.</p>
+        </div>
+    </body>
+</html>
